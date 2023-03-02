@@ -1,0 +1,8 @@
+{
+  "name": "shitty-ai-tools",
+  "private": true,
+  "dependencies": {
+    "eslint": "^8.35.0",
+    "prettier": "^2.8.4"
+  }
+}

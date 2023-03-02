@@ -2,9 +2,17 @@
   "name": "shitty-ai-tools",
   "private": true,
   "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
   "dependencies": {
     "dotenv": "^16.0.3",
     "eslint": "^8.35.0",
+    "nuxt": "^3.2.3",
     "openai": "^3.2.1",
     "prettier": "^2.8.4"
   }
